@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dfdcbf;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 
+{ 
+
+    text-align: center;
+}
+
+h4
+
+{
+    background-color: rgb(202, 168, 157);
+}
+
+h3 {
+    color: #2f3030;
+    background-color: rgb(102, 182, 175); 
+    padding: 10px; 
+    border-radius: 4px; 
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.profession-button {
+    background-color: #386e47;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.profession-button:hover {
+    background-color: #b37700;
+}
